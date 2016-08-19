@@ -15,6 +15,8 @@
 		2D1C61E61D66DAE90096FD09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1C61E41D66DAE90096FD09 /* LaunchScreen.storyboard */; };
 		2D1C61F11D66DAE90096FD09 /* GooeySlideMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C61F01D66DAE90096FD09 /* GooeySlideMenuDemoTests.m */; };
 		2D1C61FC1D66DAE90096FD09 /* GooeySlideMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C61FB1D66DAE90096FD09 /* GooeySlideMenuDemoUITests.m */; };
+		2D1C620C1D66DF8B0096FD09 /* GooeySliderMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C620B1D66DF8B0096FD09 /* GooeySliderMenu.m */; };
+		2D1C620F1D66EC020096FD09 /* SliderMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C620E1D66EC020096FD09 /* SliderMenuButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2D1C61F71D66DAE90096FD09 /* GooeySlideMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeySlideMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1C61FB1D66DAE90096FD09 /* GooeySlideMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenuDemoUITests.m; sourceTree = "<group>"; };
 		2D1C61FD1D66DAE90096FD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1C620A1D66DF8B0096FD09 /* GooeySliderMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySliderMenu.h; sourceTree = "<group>"; };
+		2D1C620B1D66DF8B0096FD09 /* GooeySliderMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySliderMenu.m; sourceTree = "<group>"; };
+		2D1C620D1D66EC020096FD09 /* SliderMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderMenuButton.h; sourceTree = "<group>"; };
+		2D1C620E1D66EC020096FD09 /* SliderMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderMenuButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		2D1C61D51D66DAE90096FD09 /* GooeySlideMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2D1C62091D66DEB70096FD09 /* Class */,
 				2D1C61D91D66DAE90096FD09 /* AppDelegate.h */,
 				2D1C61DA1D66DAE90096FD09 /* AppDelegate.m */,
 				2D1C61DC1D66DAE90096FD09 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				2D1C61FD1D66DAE90096FD09 /* Info.plist */,
 			);
 			path = GooeySlideMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+		2D1C62091D66DEB70096FD09 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2D1C620A1D66DF8B0096FD09 /* GooeySliderMenu.h */,
+				2D1C620B1D66DF8B0096FD09 /* GooeySliderMenu.m */,
+				2D1C620D1D66EC020096FD09 /* SliderMenuButton.h */,
+				2D1C620E1D66EC020096FD09 /* SliderMenuButton.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +290,9 @@
 			files = (
 				2D1C61DE1D66DAE90096FD09 /* ViewController.m in Sources */,
 				2D1C61DB1D66DAE90096FD09 /* AppDelegate.m in Sources */,
+				2D1C620F1D66EC020096FD09 /* SliderMenuButton.m in Sources */,
 				2D1C61D81D66DAE90096FD09 /* main.m in Sources */,
+				2D1C620C1D66DF8B0096FD09 /* GooeySliderMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
